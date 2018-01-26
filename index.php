@@ -185,9 +185,11 @@
 		<footer class="mdl-mini-footer">
 			<div class="mdl-mini-footer__left-section">
 				<div class="mdl-logo">Copyright &copy; <?php echo date("Y"); ?> Martin F&ouml;dinger. All rights reserved.</div>
+			</div>
+			<div class="mdl-mini-footer__right-section">
 				<ul class="mdl-mini-footer__link-list">
-					<li><a href="https://www.archlinux.org/" target="_blank" rel="noopener noreferrer">This Site is hosted on Arch Linux</a></li>
-					<li><a href="#">Privacy & Terms</a></li>
+					<li>This Site is hosted on <a href="https://www.archlinux.org/" target="_blank" rel="noopener noreferrer"><img src="assets/archlinux-logo.svg" alt="Arch Linux" height="35 px"></img></a></li>
+					<li><a href="https://www.apache.org" target="_blank" rel="noopener noreferrer"><img src="assets/Apache_PoweredBy.svg" alt="Powered by Apache" height="35 px"></img></a></li>
 				</ul>
 			</div>
 		</footer>
