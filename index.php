@@ -1,7 +1,9 @@
-<!doctype html><!-- HTML5 -->
+<!doctype html>
 
+<!-- HTML5 -->
 <html lang="en" dir="ltr">
 <head>
+
     <!-- Set character encoding for the document -->
     <meta charset="utf-8">
     <!-- Instruct Internet Explorer to use its latest rendering engine -->
@@ -23,11 +25,17 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <!-- Android favicon-->
     <link rel="manifest" href="manifest.json">
-    <!-- Safari favicon-->
-    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="theme-color" content="#ffffff">
     <!-- Microsoft Tiles -->
     <meta name="msapplication-config" content="browserconfig.xml" />
+	<!-- Safari favicon-->
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+
+	<!-- To run web application in full-screen -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<!-- Status Bar Style -->
+	<!-- Has no effect unless you have the previous meta tag -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 
     <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
     <!--
@@ -42,10 +50,14 @@
 
     <!--<meta name="author" content="SitePoint">
     <link rel="stylesheet" href="css/styles.css?v=1.0">-->
-
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-    <![endif]-->
+    
+    <!-- Twitter Card MetaData-->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@ViktorFoedowski" />
+    <meta name="twitter:creator" content="@ViktorFoedowski" />
+    <meta name="twitter:title" content="Homepage of Martin F&ouml;dinger" />
+    <meta name="twitter:description" content="The Homepage of Martin F&ouml;dinger alias Viktor F&ouml;dowski" />
+    <meta name="twitter:image" content="https://foedinger.ml/assets/connected.png" />
     
     <style>
 		.welcome-card-wide.mdl-card, .sm-card-wide.mdl-card, .other-card-wide.mdl-card {
@@ -73,22 +85,36 @@
 			height: 176px;
 			background: url('../assets/others.png') center / cover;
 		}
-		
 	</style>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113187380-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		
+		gtag('config', 'UA-113187380-1');
+	</script>
+	
+	<!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+	
 </head>
 <body>
-    <!-- Always shows a header, even in smaller screens. -->
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-        <header class="mdl-layout__header">
-            <div class="mdl-layout__header-row">
-                <!-- Title -->
-                <span class="mdl-layout-title">Martin F&ouml;dinger</span>
-                <!-- Add spacer, to align navigation to the right -->
-                <div class="mdl-layout-spacer"></div>
-                <!-- Navigation. We hide it in small screens. -->
-                <nav class="mdl-navigation mdl-layout--large-screen-only">
-                    <a class="mdl-navigation__link" href="nextcloud/">Nextcloud</a>
-                    <!--
+	<!-- Always shows a header, even in smaller screens. -->
+	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+		<header class="mdl-layout__header">
+			<div class="mdl-layout__header-row">
+				<!-- Title -->
+				<span class="mdl-layout-title">Martin F&ouml;dinger</span> 
+				<!-- Add spacer, to align navigation to the right -->
+				<div class="mdl-layout-spacer"></div>
+				<!-- Navigation. We hide it in small screens. -->
+				<nav class="mdl-navigation mdl-layout--large-screen-only">
+					<a class="mdl-navigation__link" href="nextcloud/">Nextcloud</a> 
+					<!--
                     <a class="mdl-navigation__link" href="">Link</a>
                     <a class="mdl-navigation__link" href="">Link</a>
                     <a class="mdl-navigation__link" href="">Link</a>-->
@@ -98,18 +124,16 @@
 		<div class="mdl-layout__drawer">
 			<span class="mdl-layout-title">Navigation</span>
 			<nav class="mdl-navigation">
-				<a class="mdl-navigation__link" href="nextcloud/">Nextcloud</a>
+				<a class="mdl-navigation__link" href="nextcloud/">Nextcloud</a> 
 				<!--
-				<a class="mdl-navigation__link" href="">Link</a>
-				<a class="mdl-navigation__link" href="">Link</a>
-				<a class="mdl-navigation__link" href="">Link</a>-->
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>-->
 			</nav>
 		</div>
 		<main class="mdl-layout__content">
 			<div class="page-content">
-				<noscript>
-					Please enable JavaScript to view this Site and all of its content.
-				</noscript>
+				<noscript>Please enable JavaScript to view this Site and all of its content.</noscript> 
 				<!-- Your content goes here -->
 				<div class="mdl-grid">
 					<!-- first -->
@@ -119,17 +143,16 @@
 								<h2 class="mdl-card__title-text">Anyone out there?</h2>
 							</div>
 							<div class="mdl-card__supporting-text">
-								Hey there! Welcome!</br>
-								So you somehow stranded on my personal homepage?</br>
-								Have a look around!</br>
+								Hey there! Welcome!<br>
+								So you somehow stranded on my personal homepage?<br>
+								Have a look around!<br>
 								You will find some social media links and other stuff.
-							</div>
-							<!--
-							<div class="mdl-card__actions mdl-card--border">
-								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-									Get Started
-								</a>
-							</div>-->
+							</div><!--
+                            <div class="mdl-card__actions mdl-card==border">
+                                <a class="mdl-button mdl-button==colored mdl-js-button mdl-js-ripple-effect">
+                                    Get Started
+                                </a>
+                            </div>-->
 						</div>
 					</div>
 					<!-- second -->
@@ -139,25 +162,25 @@
 								<h2 class="mdl-card__title-text">Social Media</h2>
 							</div>
 							<div class="mdl-card__actions mdl-card--border">
-								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://www.facebook.com/martin.foedinger" target="_blank" rel="noopener noreferrer">
+								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://www.facebook.com/martin.foedinger" rel="noopener noreferrer" target="_blank">
 									Facebook
 								</a>
-								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://twitter.com/ViktorFoedowski" target="_blank" rel="noopener noreferrer">
+								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://twitter.com/ViktorFoedowski" rel="noopener noreferrer" target="_blank">
 									Twitter
-								</a>
-								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="hhttps://github.com/ViktorF" target="_blank" rel="noopener noreferrer">
+								</a> 
+								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://github.com/ViktorF" rel="noopener noreferrer" target="_blank">
 									Github
-								</a>
-								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://www.reddit.com/user/ViktorFoedowski" target="_blank" rel="noopener noreferrer">
+								</a> 
+								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://www.reddit.com/user/ViktorFoedowski" rel="noopener noreferrer" target="_blank">
 									Reddit
-								</a>
-								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://steamcommunity.com/id/ViktorFoedowski" target="_blank" rel="noopener noreferrer">
+								</a> 
+								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://steamcommunity.com/id/ViktorFoedowski" rel="noopener noreferrer" target="_blank">
 									Steam
-								</a>
-								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://www.instagram.com/viktorfoedowski" target="_blank" rel="noopener noreferrer">
+								</a> 
+								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://www.instagram.com/viktorfoedowski/" rel="noopener noreferrer" target="_blank">
 									Instagram
-								</a>
-								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://soundcloud.com/viktorfoedowski" target="_blank" rel="noopener noreferrer">
+								</a> 
+								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://soundcloud.com/viktorfoedowski" rel="noopener noreferrer" target="_blank">
 									Soundcloud
 								</a>
 							</div>
@@ -168,15 +191,15 @@
 						<div class="other-card-wide mdl-card mdl-shadow--2dp">
 							<div class="mdl-card__title">
 								<h2 class="mdl-card__title-text">Other Links</h2>
-							</div><!--
-							<div class="mdl-card__supporting-text">
-							</div>-->
+							</div>
+							<!--
+                            <div class="mdl-card__supporting-text">
+                            </div>-->
 							<div class="mdl-card__actions mdl-card--border">
-								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://open.spotify.com/user/wsi87ej26yp0ztsms1vsm6yn1/playlist/2bIN5F1VmvZlsdm32xoUNq" target="_blank" rel="noopener noreferrer">
+								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="https://open.spotify.com/user/wsi87ej26yp0ztsms1vsm6yn1/playlist/2bIN5F1VmvZlsdm32xoUNq" rel="noopener noreferrer" target="_blank">
 									Spotify Playlist
 								</a>
 							</div>
-							
 						</div>
 					</div>
 				</div>
@@ -184,12 +207,17 @@
 		</main>
 		<footer class="mdl-mini-footer">
 			<div class="mdl-mini-footer__left-section">
-				<div class="mdl-logo">Copyright &copy; <?php echo date("Y"); ?> Martin F&ouml;dinger. All rights reserved.</div>
+				<div class="mdl-logo">
+					Copyright &copy; <?php echo date("Y"); ?> Martin F&ouml;dinger. All rights reserved.
+				</div>
 			</div>
 			<div class="mdl-mini-footer__right-section">
 				<ul class="mdl-mini-footer__link-list">
-					<li>This Site is hosted on <a href="https://www.archlinux.org/" target="_blank" rel="noopener noreferrer"><img src="assets/archlinux-logo.svg" alt="Arch Linux" height="35 px"></img></a></li>
-					<li><a href="https://www.apache.org" target="_blank" rel="noopener noreferrer"><img src="assets/Apache_PoweredBy.svg" alt="Powered by Apache" height="35 px"></img></a></li>
+					<li>This Site is hosted on <a href="https://www.archlinux.org/" rel="noopener noreferrer" target="_blank"><img alt="Arch Linux" height="35" src="assets/archlinux-logo.svg"></a>
+					</li>
+					<li>
+						<a href="https://www.apache.org" rel="noopener noreferrer" target="_blank"><img alt="Powered by Apache" height="35" src="assets/Apache_PoweredBy.svg"></a>
+					</li>
 				</ul>
 			</div>
 		</footer>
