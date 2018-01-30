@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /nextcloud/
+Disallow: /assets/
+Disallow: /status.php
+
+User-agent: Googlebot-Image
+Disallow: /
+
+Sitemap: https://www.foedinger.ml/sitemap.xml
