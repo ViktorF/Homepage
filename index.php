@@ -1,5 +1,6 @@
 <!doctype html><!-- HTML5 -->
 
+<!-- amphtml branch -->
 <html lang="en" dir="ltr">
 <head>
 	<!-- Set character encoding for the document -->
@@ -71,7 +72,7 @@
 	<meta name="twitter:creator" content="@ViktorFoedowski" />
 	<meta name="twitter:title" content="Homepage of Martin F&ouml;dinger" />
 	<meta name="twitter:description" content="The Homepage of Martin F&ouml;dinger alias Viktor F&ouml;dowski" />
-	<meta name="twitter:image" content="https://foedinger.ml/assets/connected.png" />
+	<meta name="twitter:image" content="https://foedinger.ml/assets/img/connected.png" />
 	
 	<style>
 		.welcome-card-wide.mdl-card, .sm-card-wide.mdl-card, .other-card-wide.mdl-card {
@@ -85,19 +86,19 @@
 		.welcome-card-wide > .mdl-card__title {
 			color: #fff;
 			height: 176px;
-			background: url('../assets/welcome_card.jpg') center / cover;
+			background: url('../assets/img/welcome_card.jpg') center / cover;
 		}
 		
 		.sm-card-wide > .mdl-card__title {
 			color: #fff;
 			height: 176px;
-			background: url('../assets/connected.png') center / cover;
+			background: url('../assets/img/connected.png') center / cover;
 		}
 		
 		.other-card-wide > .mdl-card__title {
 			color: #fff;
 			height: 176px;
-			background: url('../assets/others.png') center / cover;
+			background: url('../assets/img/others.png') center / cover;
 		}
 	</style>
 	
@@ -220,10 +221,10 @@
 			</div>
 			<div class="mdl-mini-footer__right-section">
 				<ul class="mdl-mini-footer__link-list">
-					<li>This Site is hosted on <a href="https://www.archlinux.org/" rel="noopener noreferrer" target="_blank"><img alt="Arch Linux" height="35" src="assets/archlinux-logo.svg"></a>
+					<li>This Site is hosted on <a href="https://www.archlinux.org/" rel="noopener noreferrer" target="_blank"><img alt="Arch Linux" height="35" src="assets/img/archlinux-logo.svg"></a>
 					</li>
 					<li>
-						<a href="https://www.apache.org" rel="noopener noreferrer" target="_blank"><img alt="Powered by Apache" height="35" src="assets/Apache_PoweredBy.svg"></a>
+						<a href="https://www.apache.org" rel="noopener noreferrer" target="_blank"><img alt="Powered by Apache" height="35" src="assets/img/Apache_PoweredBy.svg"></a>
 					</li>
 				</ul>
 			</div>
