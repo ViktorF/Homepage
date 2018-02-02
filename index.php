@@ -27,7 +27,16 @@
 	<meta name="msapplication-config" content="browserconfig.xml" />
 	<!-- Safari favicon-->
 	<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
-	<meta name="theme-color" content="#ffffff">
+	
+	<!-- Theme Color for Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#3f51b5">
+	
+	<!-- Add to home screen -->
+	<meta name="mobile-web-app-capable" content="yes">
+	<!-- More info: https://developer.chrome.com/multidevice/android/installtohomescreen -->
+	
+	<!-- Block Pinterest saves -->
+	<meta name="pinterest" content="nopin" description="Sorry, you can't save from my website!">
 	
 	<!-- To run web application in full-screen -->
 	<meta name="apple-mobile-web-app-capable" content="yes">
@@ -43,10 +52,19 @@
 	<!-- Material Design lite-->
 	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
 	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-
-	<!--<meta name="author" content="SitePoint">
-	<link rel="stylesheet" href="css/styles.css?v=1.0">-->
 	
+	<!-- Short description of your document's subject -->
+	<meta name="subject" content="Homepage">
+
+	<!-- Gives a general age rating based on the document's content -->
+	<meta name="rating" content="General">
+	
+	<!-- Disable automatic detection and formatting of possible phone numbers -->
+	<meta name="format-detection" content="telephone=no">
+	
+	<!-- Links to top level resource in an hierarchical structure -->
+	<link rel="index" href="https://www.foedinger.ml/">
+
 	<!-- Twitter Card MetaData-->
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="@ViktorFoedowski" />
@@ -85,13 +103,7 @@
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113187380-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		
-		gtag('config', 'UA-113187380-1');
-	</script>
+	<script async src="assets/analytics.js"></script>
 	
 	<!--[if lt IE 9]>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
