@@ -37,7 +37,7 @@
 	<!-- More info: https://developer.chrome.com/multidevice/android/installtohomescreen -->
 	
 	<!-- Block Pinterest saves -->
-	<meta name="pinterest" content="nopin" description="Sorry, you can't save from my website!">
+	<meta name="pinterest" content="nopin">
 	
 	<!-- To run web application in full-screen -->
 	<meta name="apple-mobile-web-app-capable" content="yes">
@@ -48,12 +48,13 @@
 	<!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
 	<!--<link rel="canonical" href="http://www.example.com/">-->
 	
-	<!-- Material Icons-->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<!-- Material Design lite-->
-	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
-	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 	
+	<link rel="stylesheet" href="assets/mdl/material.min.css">
+	<script async src="assets/mdl/material.min.js"></script>
+	<!-- Material Icons -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	
+	<script async src="assets/js/modernizr.js"></script>
 	<!-- Short description of your document's subject -->
 	<meta name="subject" content="Homepage">
 
@@ -86,25 +87,46 @@
 		.welcome-card-wide > .mdl-card__title {
 			color: #fff;
 			height: 176px;
+		}
+		
+		.nowebp .welcome-card-wide > .mdl-card__title {
 			background: url('../assets/img/welcome_card.jpg') center / cover;
+		}
+		
+		.webp .welcome-card-wide > .mdl-card__title {
+			background: url('../assets/img/welcome_card.webp') center / cover;
 		}
 		
 		.sm-card-wide > .mdl-card__title {
 			color: #fff;
 			height: 176px;
+		}
+		
+		.nowebp .sm-card-wide > .mdl-card__title {
 			background: url('../assets/img/connected.png') center / cover;
+		}
+		
+		.webp .sm-card-wide > .mdl-card__title {
+			background: url('../assets/img/connected.webp') center / cover;
 		}
 		
 		.other-card-wide > .mdl-card__title {
 			color: #fff;
 			height: 176px;
+		}
+		
+		.nowebp .other-card-wide > .mdl-card__title {
 			background: url('../assets/img/others.png') center / cover;
 		}
+		
+		.webp .other-card-wide > .mdl-card__title {
+			background: url('../assets/img/others.webp') center / cover;
+		}
 	</style>
-	
+
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113187380-1"></script>
-	<script async src="assets/analytics.js"></script>
+	<script async src="assets/js/analytics.js"></script>
 	
 	<!--[if lt IE 9]>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -121,7 +143,8 @@
 				<div class="mdl-layout-spacer"></div>
 				<!-- Navigation. We hide it in small screens. -->
 				<nav class="mdl-navigation mdl-layout--large-screen-only">
-					<a class="mdl-navigation__link" href="nextcloud/">Nextcloud</a>
+				<a class="mdl-navigation__link" href="https://cloud.foedinger.ml/">Nextcloud</a>
+				<a class="mdl-navigation__link" href="keeweb/">Keeweb</a>
 					<!--
 					<a class="mdl-navigation__link" href="">Link</a>
 					<a class="mdl-navigation__link" href="">Link</a>
@@ -132,7 +155,8 @@
 		<div class="mdl-layout__drawer">
 			<span class="mdl-layout-title">Navigation</span>
 			<nav class="mdl-navigation">
-				<a class="mdl-navigation__link" href="nextcloud/">Nextcloud</a>
+				<a class="mdl-navigation__link" href="https://cloud.foedinger.ml/">Nextcloud</a>
+				<a class="mdl-navigation__link" href="keeweb/">Keeweb</a>
 				<!--
 				<a class="mdl-navigation__link" href="">Link</a>
 				<a class="mdl-navigation__link" href="">Link</a>
