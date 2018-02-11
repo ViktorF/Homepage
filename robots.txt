@@ -1,6 +1,8 @@
 User-agent: *
-Disallow: /nextcloud/
+Disallow: /keeweb/
+Disallow: /freshrss/
 Disallow: /assets/
+Disallow: /phpMyAdmin/
 Disallow: /status.php
 
 User-agent: Googlebot-Image

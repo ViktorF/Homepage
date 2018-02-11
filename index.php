@@ -146,8 +146,9 @@
 				<div class="mdl-layout-spacer"></div>
 				<!-- Navigation. We hide it in small screens. -->
 				<nav class="mdl-navigation mdl-layout--large-screen-only">
-				<a class="mdl-navigation__link" href="https://cloud.foedinger.ml/">Nextcloud</a>
-				<a class="mdl-navigation__link" href="keeweb/">Keeweb</a>
+				<a class="mdl-navigation__link" href="https://cloud.foedinger.ml/"><i class="material-icons">cloud</i> Nextcloud</a>
+				<a class="mdl-navigation__link" href="keeweb/"><i class="material-icons">lock_open</i> Keeweb</a>
+				<a class="mdl-navigation__link" href="freshrss/"><i class="material-icons">rss_feed</i> FreshRSS</a>
 					<!--
 					<a class="mdl-navigation__link" href="">Link</a>
 					<a class="mdl-navigation__link" href="">Link</a>
@@ -158,8 +159,9 @@
 		<div class="mdl-layout__drawer">
 			<span class="mdl-layout-title">Navigation</span>
 			<nav class="mdl-navigation">
-				<a class="mdl-navigation__link" href="https://cloud.foedinger.ml/">Nextcloud</a>
-				<a class="mdl-navigation__link" href="keeweb/">Keeweb</a>
+				<a class="mdl-navigation__link" href="https://cloud.foedinger.ml/"><i class="material-icons">cloud</i> Nextcloud</a>
+				<a class="mdl-navigation__link" href="keeweb/"><i class="material-icons">lock_open</i> Keeweb</a>
+				<a class="mdl-navigation__link" href="freshrss/"><i class="material-icons">rss_feed</i> FreshRSS</a>
 				<!--
 				<a class="mdl-navigation__link" href="">Link</a>
 				<a class="mdl-navigation__link" href="">Link</a>
