@@ -92,7 +92,7 @@
 			height: 176px;
 		}
 		
-		.nowebp .welcome-card-wide > .mdl-card__title {
+		.no-webp .welcome-card-wide > .mdl-card__title {
 			background: url('../assets/img/welcome_card.jpg') center / cover;
 		}
 		
@@ -105,7 +105,7 @@
 			height: 176px;
 		}
 		
-		.nowebp .sm-card-wide > .mdl-card__title {
+		.no-webp .sm-card-wide > .mdl-card__title {
 			background: url('../assets/img/connected.png') center / cover;
 		}
 		
@@ -118,7 +118,7 @@
 			height: 176px;
 		}
 		
-		.nowebp .other-card-wide > .mdl-card__title {
+		.no-webp .other-card-wide > .mdl-card__title {
 			background: url('../assets/img/others.png') center / cover;
 		}
 		
