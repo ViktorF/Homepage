@@ -239,10 +239,10 @@
 							</div>
 						</div>
 					</div>
-					<!-- fourth -->
-					<div class="mdl-cell mdl-cell--4-col">
+					<!-- fourth 
+					<div class="mdl-cell mdl-cell- -4-col">
 						<iframe src="https://open.spotify.com/embed/user/wsi87ej26yp0ztsms1vsm6yn1/playlist/2bIN5F1VmvZlsdm32xoUNq" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
-					</div>
+					</div>-->
 				</div>
 			</div>
 		</main>
@@ -256,9 +256,8 @@
 				<ul class="mdl-mini-footer__link-list">
 					<li>This Site is hosted on <a href="https://www.archlinux.org/" rel="noopener noreferrer" target="_blank"><img alt="Arch Linux" height="35" src="assets/img/archlinux-logo.svg"></a>
 					</li>
-					<li>
-						<a href="https://www.apache.org" rel="noopener noreferrer" target="_blank"><img alt="Powered by Apache" height="35" src="assets/img/Apache_PoweredBy.svg"></a>
-					</li>
+					<li><a href="https://www.apache.org" rel="noopener noreferrer" target="_blank"><img alt="Powered by Apache" height="35" src="assets/img/Apache_PoweredBy.svg"></a></li>
+					<li><a href="https://www.nginx.com" rel="noopener norefferer" target="_blank"><img alt="NGINX" height="35" src="assets/img/nginx-logo-rgb.png"></a></li>
 				</ul>
 			</div>
 		</footer>
